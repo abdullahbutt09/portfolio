@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="bg-teal-950">
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 w-full bg-teal-950 z-50 shadow-md">
+        <div class="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="text-white text-xl font-bold">MyBrand</a>
+
+            <!-- Desktop Menu -->
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" class="text-white hover:text-gray-300 transition duration-300">Home</a>
+                <a href="#" class="text-white hover:text-gray-300 transition duration-300">Projects</a>
+                <a href="#" class="text-white hover:text-gray-300 transition duration-300">About</a>
+                <a href="#" class="text-white hover:text-gray-300 transition duration-300">Contact</a>
+            </nav>
+
+            <!-- Hamburger Button -->
+            <button id="menu-btn" class="md:hidden text-white text-2xl focus:outline-none">
+                ☰
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden absolute top-[60px] bg-teal-900 text-white w-full shadow-lg py-1 flex-row gap-4 items-center z-50">
+
+            <a href="#" class="py-2 hover:bg-teal-800 w-full text-center">Home</a>
+            <a href="#" class="py-2 hover:bg-teal-800 w-full text-center">Projects</a>
+            <a href="#" class="py-2 hover:bg-teal-800 w-full text-center">About</a>
+            <a href="#" class="py-2 hover:bg-teal-800 w-full text-center">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="pt-20 text-white">
+        <div class="w-full flex justify-center mt-9">
+            <img class="max-w-[80px] w-full h-auto object-cover" src="/images/1.png" alt="">
+        </div>
+
+        <div class="flex justify-center mt-4 max-w-[350px] mx-auto">
+            <span class="leading-none flex items-center gap-2 border border-gray-600 text-sm bg-slate-950 px-3 py-1 rounded">
+                <div class="w-[10px] h-[10px] bg-green-500 rounded-full"></div>
+                Available For Tailwind Projects
+            </span>
+        </div>
+
+        <div class="max-w-[350px] mx-auto mt-4 flex flex-col items-center justify-center flex-wrap">
+            <p class="text-4xl font-bold bg-gradient-to-r from-cyan-400 via-teal-300 to-green-400 bg-clip-text text-transparent leading-tight text-center">
+                Building Exceptional
+            </p>
+            <p class="text-4xl font-bold bg-gradient-to-r from-cyan-400 via-teal-300 to-green-400 bg-clip-text text-transparent leading-tight text-center">
+                User Experience
+            </p>
+
+            <p class="max-w-md text-center mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores modi distinctio corporis sunt ad neque velit quod deleniti minima aliquam.</p>
+        </div>
+
+        <div class="flex gap-4 mt-5 items-center justify-center flex-wrap sm:max-w-[350px] mx-auto">
+            <button class="bg-black px-4 py-2 rounded-lg cursor-pointer">Explore My Work</button>
+            <button class="bg-white text-black px-4 py-1.5 rounded-lg cursor-pointer">👋 Let's connect</button>
+        </div>
+    </section>
+
+    <script src="/dist/script.js"></script>
+</body>
+</html>
