@@ -412,12 +412,20 @@
         <div class="bg-green-950 border-2 border-gray-600 h-auto md:h-[250px] w-full md:w-[250px] m-3 rounded-xl flex flex-col p-3">
             <div class="flex items-center">
                 <i class='bx bx-book-bookmark text-3xl text-white'></i>
-                <p class="text-white ml-2 text-lg">My Reads</p>
+                <p class="text-white ml-2 text-lg">Databases</p>
             </div>
             <p class="text-white mt-2 text-sm">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, delectus.</p>
-            <div class="flex items-center justify-center gap-2 flex-wrap">
-                <img class="w-[80px] md:w-[100px] mt-4 rounded-xl" src="https://via.placeholder.com/100" alt="">
-                <img class="w-[80px] md:w-[100px] mt-4 rounded-xl" src="https://via.placeholder.com/100" alt="">
+            <div class="mt-5 flex justify-evenly gap-3">
+              <i class='bx bxl-mongodb text-white text-4xl'></i>
+              <i class='bx bxl-postgresql text-white text-4xl'></i>
+              <i class='bx bxs-bowl-hot text-white text-4xl'></i>
+              <i class='bx bx-qr-scan text-white text-4xl'></i>
+            </div>
+            <div class="mt-5 flex justify-evenly gap-3">
+              <i class='bx bxl-docker text-white text-4xl'></i>
+              <i class='bx bxl-aws text-white text-4xl' style='color:#ffffff' ></i>
+              <i class='bx bx-podcast text-white text-4xl'></i>
+              <i class='bx bx-memory-card text-white text-4xl'></i>
             </div>
         </div>
 
@@ -529,8 +537,39 @@
             <i class='bx bxl-discord text-4xl text-white' style='color:#ffffff'></i>
           </div>
       </div>
+      <div class="w-full max-w-[900px] rounded-lg bg-green-950 p-4 border-2 border-gray-600 mt-2 m-3">
+        <div>
+          <p class="font-bold text-2xl text-white">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, amet.
+          </p>
+          <p class="text-white mt-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt iste dolores, quo, aliquid eveniet id minus mollitia porro amet ex molestias alias laudantium fuga voluptate ipsum facere molestiae dignissimos deserunt?
+          </p>
+        </div>
+        <div class="flex items-center justify-center mt-4">
+          <button class="bg-black text-white text-xl py-2 px-4 rounded-lg cursor-pointer">
+            Contact Me!
+          </button>
+        </div>
+      </div>
     </main>
     </section>
+
+    <footer class="mt-4 p-4">
+      <main class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+        <div class="mb-2 md:mb-0">
+          <p class="text-white">&copy; All rights reserved!</p>
+        </div>
+        <div>
+          <ul class="flex flex-wrap justify-center md:justify-end gap-4 text-white">
+            <li class="hover:underline hover:cursor-pointer">YouTube</li>
+            <li class="hover:underline hover:cursor-pointer">X</li>
+            <li class="hover:underline hover:cursor-pointer">Facebook</li>
+          </ul>
+        </div>
+      </main>
+    </footer>    
+    
     <script src="script.js"></script>
   </body>
 </html>
